@@ -56,6 +56,9 @@
 		9A6C87E41C58C053003C819A /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C87E21C58C053003C819A /* MineViewController.xib */; };
 		9A6C87E71C58C146003C819A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C87E61C58C146003C819A /* MainViewController.m */; };
 		9AC325E81C59B45C0016CBBC /* ThemeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC325E71C59B45C0016CBBC /* ThemeTabBarItem.m */; };
+		9AF9ED111DBDE7AC00D52CED /* 06784584-0AB6-4F87-B470-38EA122B905B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9ED0E1DBDE7AC00D52CED /* 06784584-0AB6-4F87-B470-38EA122B905B.png */; };
+		9AF9ED121DBDE7AC00D52CED /* 0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9ED0F1DBDE7AC00D52CED /* 0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png */; };
+		9AF9ED131DBDE7AC00D52CED /* 628F603B-475C-494B-A970-8D09249CC8A4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9ED101DBDE7AC00D52CED /* 628F603B-475C-494B-A970-8D09249CC8A4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +144,9 @@
 		9AC325E51C59B3220016CBBC /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
 		9AC325E61C59B45C0016CBBC /* ThemeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeTabBarItem.h; sourceTree = "<group>"; };
 		9AC325E71C59B45C0016CBBC /* ThemeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeTabBarItem.m; sourceTree = "<group>"; };
+		9AF9ED0E1DBDE7AC00D52CED /* 06784584-0AB6-4F87-B470-38EA122B905B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06784584-0AB6-4F87-B470-38EA122B905B.png"; sourceTree = "<group>"; };
+		9AF9ED0F1DBDE7AC00D52CED /* 0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png"; sourceTree = "<group>"; };
+		9AF9ED101DBDE7AC00D52CED /* 628F603B-475C-494B-A970-8D09249CC8A4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "628F603B-475C-494B-A970-8D09249CC8A4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +303,7 @@
 		9A6C87951C58BF22003C819A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9AF9ED0D1DBDE7AC00D52CED /* ScreenShot */,
 				9A6C87961C58BF22003C819A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -373,6 +380,16 @@
 				9A6C87E21C58C053003C819A /* MineViewController.xib */,
 			);
 			name = Mine;
+			sourceTree = "<group>";
+		};
+		9AF9ED0D1DBDE7AC00D52CED /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9ED0E1DBDE7AC00D52CED /* 06784584-0AB6-4F87-B470-38EA122B905B.png */,
+				9AF9ED0F1DBDE7AC00D52CED /* 0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png */,
+				9AF9ED101DBDE7AC00D52CED /* 628F603B-475C-494B-A970-8D09249CC8A4.png */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,10 +526,13 @@
 				9A6C87D51C58C01F003C819A /* HomeViewController.xib in Resources */,
 				9A5A86791C58C7EB000E0390 /* tabbar_profile_selected@2x.png in Resources */,
 				9A5A86751C58C7EB000E0390 /* tabbar_message_center@2x.png in Resources */,
+				9AF9ED111DBDE7AC00D52CED /* 06784584-0AB6-4F87-B470-38EA122B905B.png in Resources */,
 				9A6ACDA91C58D29C007F69B0 /* theme.plist in Resources */,
 				9A5A866B1C58C7EB000E0390 /* tabbar_home_highlighted@2x.png in Resources */,
 				9A5A866E1C58C7EB000E0390 /* tabbar_home.png in Resources */,
 				9A5A86711C58C7EB000E0390 /* tabbar_message_center_highlighted@2x.png in Resources */,
+				9AF9ED121DBDE7AC00D52CED /* 0D8A59C4-13D4-4F17-BB2A-562E735F1D1B.png in Resources */,
+				9AF9ED131DBDE7AC00D52CED /* 628F603B-475C-494B-A970-8D09249CC8A4.png in Resources */,
 				9A5A86661C58C7EB000E0390 /* tabbar_discover_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
